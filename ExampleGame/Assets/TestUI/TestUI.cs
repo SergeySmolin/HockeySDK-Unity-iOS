@@ -26,7 +26,7 @@ public class TestUI : MonoBehaviour{
 		if(GUI.Button(GetControlRect(2), "Divide By Zero"))
 		{
 
-			int i = 0;
+			decimal i = 0;
 			i = 5 / i;
 		}
 
